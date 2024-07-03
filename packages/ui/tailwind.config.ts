@@ -8,7 +8,7 @@ import { colors, commonColors, darkCommonColors } from "./src/colors";
 const config: Config = {
   content: [
     "./app/**/*.{ts,tsx}",
-    join(__dirname, "../../packages/**/*.{ts,tsx}"),
+    join(__dirname, "../../packages/**/src/*.{ts,tsx}"),
     join(__dirname, "../../node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"),
   ],
   darkMode: "class",

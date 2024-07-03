@@ -1,5 +1,4 @@
-import { Button as NextUIButton } from "@nextui-org/react";
-import { extendVariants } from "@nextui-org/system-rsc";
+import { Button as NextUIButton, extendVariants } from "@nextui-org/react";
 
 export const Button = extendVariants(NextUIButton, {
   variants: {
@@ -8,41 +7,39 @@ export const Button = extendVariants(NextUIButton, {
     },
   },
   defaultVariants: {
-    color: "primary",
     fill: false,
-    variant: "solid",
   },
   compoundVariants: [
     // solid / color
     {
       variant: "solid",
       color: "default",
-      class: "text-black",
+      className: "text-black",
     },
     {
       variant: "solid",
       color: "primary",
-      class: "text-white",
+      className: "text-white",
     },
     {
       variant: "solid",
       color: "secondary",
-      class: "text-white",
+      className: "text-white",
     },
     {
       variant: "solid",
       color: "danger",
-      class: "text-white",
+      className: "text-white",
     },
     {
       variant: "solid",
       color: "warning",
-      class: "text-black",
+      className: "text-black",
     },
     {
       variant: "solid",
       color: "success",
-      class: "text-white",
+      className: "text-white",
     },
   ],
 });
