@@ -8,8 +8,9 @@ export const Button = extendVariants(NextUIButton, {
     },
   },
   defaultVariants: {
-    variant: "solid",
     color: "primary",
+    fill: false,
+    variant: "solid",
   },
   compoundVariants: [
     // solid / color
