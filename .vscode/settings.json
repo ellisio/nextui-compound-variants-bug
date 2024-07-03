@@ -1,7 +1,43 @@
 {
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
   "eslint.workingDirectories": [
     {
-      "mode": "auto"
+      "pattern": "apps/*/"
+    },
+    {
+      "pattern": "packages/*/"
     }
-  ]
+  ],
+  "i18n-ally.localesPaths": [
+    "./apps/web/messages"
+  ],
+  "i18n-ally.enabledFrameworks": [
+    "next-intl"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "en",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "classNames"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\((([^()]*|\\([^()]*\\))*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#1e3a8a",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#18181b",
+    "titleBar.inactiveForeground": "#ffffff"
+  }
 }

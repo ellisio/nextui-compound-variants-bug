@@ -2,7 +2,16 @@
   "name": "@repo/typescript-config",
   "version": "0.0.0",
   "private": true,
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean": "rimraf node_modules"
+  },
+  "dependencies": {
+    "@tsconfig/next": "^2.0.3"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.7"
+  },
   "publishConfig": {
     "access": "public"
   }
