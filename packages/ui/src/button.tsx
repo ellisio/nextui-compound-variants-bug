@@ -31,7 +31,7 @@ export const Button = extendVariants(NextUIButton, {
     {
       variant: "solid",
       color: "danger",
-      class: "text-white p-20",
+      class: "text-white",
     },
     {
       variant: "solid",
